@@ -8,5 +8,10 @@ Feature: Verify get request
     Given path '/api/users?page=2'
     When method get
     Then status 200
+    And print response
     And def GetResponse = response
     And match GetResponse.data[*].name contains ["cerulean"]
+    And match GetResponse.data[1].id != null
+    And match GetResponse.data[1].name == "fuchsia rose"
+    
+

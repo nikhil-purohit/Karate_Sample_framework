@@ -45,7 +45,7 @@
   .embed img { width: 100%; }
 </style>
         
-        <title>feature.Get_request</title>
+        <title>src.test.java.feature.Get_request</title>
         <script>window.onload = function() {
   var possibleModes = ['failed', 'skipped', 'passed'];
   var tests = {};
@@ -173,62 +173,59 @@
                 </div>
                 <div class="step-row">
                     <div class="step-cell passed">* url 'https://reqres.in/'</div>
-                    <div class="time-cell passed">0.006121</div>
+                    <div class="time-cell passed">0.005444</div>
                 </div>
-                <div class="preformatted">19:45:25.023 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                <div class="preformatted">19:28:44.838 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                 <div class="step-row">
                     <div class="step-cell passed">* header Accept = 'application/json'</div>
-                    <div class="time-cell passed">0.005904</div>
+                    <div class="time-cell passed">0.004552</div>
                 </div>
                 <div class="step-row">
-                    <div class="step-cell passed">Given path '/api/users?page=2'</div>
-                    <div class="time-cell passed">0.006726</div>
+                    <div class="step-cell passed">Given path '/api/users/2'</div>
+                    <div class="time-cell passed">0.004633</div>
                 </div>
                 <div class="step-row">
                     <div class="step-cell passed">When method get</div>
-                    <div class="time-cell passed">0.388908</div>
+                    <div class="time-cell passed">1.464444</div>
                 </div>
-                <div class="preformatted">19:45:25.047 request:
-1 &gt; GET https://reqres.in/api/users%3Fpage=2
+                <div class="preformatted">19:28:45.619 request:
+1 &gt; GET https://reqres.in/api/users/2
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.8)
 
-19:45:25.432 response time in milliseconds: 383.66
+19:28:46.255 response time in milliseconds: 629.35
 1 &lt; 200
-1 &lt; Age: 131
+1 &lt; Age: 5087
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 69764d90ec111d95-BLR
+1 &lt; CF-RAY: 6976352bcd8f31ca-BOM
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Fri, 01 Oct 2021 14:15:25 GMT
+1 &lt; Date: Fri, 01 Oct 2021 13:58:46 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ANNjMnwqmlAmWJgwLan5FccZkiHA0rAEf3FyVhaHeloeEyPE9tq4NGGe%2FK3LYBgPgTiVN786v5%2BIvgUhh5CW0VlsNxRaUk%2Fs2kWDqEPmXMy3ozbMNynOQTGtppo%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B9yq7%2FEZ1DO6Tv6OpP1jw11yQZ28PHIDFcPd0mltOrXuwMY0gPEq%2FXpaWESOlvg14aGscZdhbEqU548BW3F5pjkDA6fJ7xC9C7SJ5EwBuWrj1hhke%2F1sOlu3Tds%3D"}],"group":"cf-nel","max_age":604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
 1 &lt; access-control-allow-origin: *
 1 &lt; alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
-1 &lt; etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 &lt; etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
 1 &lt; via: 1.1 vegur
 1 &lt; x-powered-by: Express
-{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
                 <div class="step-row">
                     <div class="step-cell passed">Then status 200</div>
-                    <div class="time-cell passed">0.000016</div>
+                    <div class="time-cell passed">0.000037</div>
                 </div>
                 <div class="step-row">
-                    <div class="step-cell passed">And def GetResponse = response</div>
-                    <div class="time-cell passed">0.002876</div>
+                    <div class="step-cell failed">Then first_name == 'Janet'</div>
+                    <div class="time-cell failed">0</div>
                 </div>
-                <div class="step-row">
-                    <div class="step-cell passed">And match GetResponse.data[*].name contains ["cerulean"]</div>
-                    <div class="time-cell passed">0.137669</div>
-                </div>
+                <div class="preformatted">Get_request.feature:11 - no step-definition method match found for: first_name == 'Janet'</div>
             </div>
         </div>
     </body>

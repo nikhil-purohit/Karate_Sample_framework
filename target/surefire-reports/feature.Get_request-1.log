@@ -1,5 +1,5 @@
-02:28:13.704 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-02:28:13.741 request:
+19:45:25.023 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:45:25.047 request:
 1 > GET https://reqres.in/api/users%3Fpage=2
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
@@ -7,17 +7,18 @@
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.8)
 
-02:28:14.608 response time in milliseconds: 865.24
+19:45:25.432 response time in milliseconds: 383.66
 1 < 200
-1 < CF-Cache-Status: REVALIDATED
-1 < CF-RAY: 69705e460ed21dad-BLR
+1 < Age: 131
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 69764d90ec111d95-BLR
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Thu, 30 Sep 2021 20:58:15 GMT
+1 < Date: Fri, 01 Oct 2021 14:15:25 GMT
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z2ZyE9ku1pVzRtmmykuhkWz1zQ7qOlbmtb6w%2FF71iCvHUzkCuO26aK1VHo0N1%2FDKp35XPygKYIJWT8D8OO3z1bFTf7ML%2FBRIo13%2BOYtlmiH6tXkptGnCRzsVNKk%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ANNjMnwqmlAmWJgwLan5FccZkiHA0rAEf3FyVhaHeloeEyPE9tq4NGGe%2FK3LYBgPgTiVN786v5%2BIvgUhh5CW0VlsNxRaUk%2Fs2kWDqEPmXMy3ozbMNynOQTGtppo%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
@@ -27,4 +28,6 @@
 1 < via: 1.1 vegur
 1 < x-powered-by: Express
 {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+"}}
 
